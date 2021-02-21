@@ -1,8 +1,9 @@
 class Skill < ApplicationRecord
 
+
     # stackoverflow
     def self.get_skills_so
-        # todo - this is bad, move it to a model
+        # todo - work on getting skill pairs from the xml payload.
         all_skills_so = {}
 
         url = 'https://stackoverflow.com/jobs/feed'
